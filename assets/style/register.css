@@ -1,0 +1,91 @@
+/** Register
+**************************************************************** **/
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  
+  -webkit-appearance: none;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+}
+.custom-select{
+	
+	border-radius: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	height: 50px;
+}
+
+#user-registration {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#page-header {
+    color: #015CA4;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1.25rem 0 1rem 0;
+    text-transform: uppercase;
+}
+
+#password-show-hide {
+    border: 2px solid #1599c6;
+    cursor: pointer;
+    pointer-events: all;
+  }
+
+.pronounce {
+    font-weight: bold;
+}
+
+/* #raceOtherInfo:disabled~#raceOtherInfo {
+    border: 1px solid #888;
+    background-color: #f4f4f4;
+} */
+
+/* input fields */
+
+input[type="text"]:disabled {
+    border: 1px solid #c0c0c0;
+    background-color: #f4f4f4;
+}
+
+/* checkboxes */
+
+.custom-control-label:before {
+    border: 1px solid #1599c6;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #1599C6;
+}
+
+.custom-checkbox .custom-control-input:disabled~.custom-control-label::before {
+    border: 1px solid #c0c0c0;
+    background-color: #f4f4f4;
+}
+
+/* error messages */
+label.error.message {
+    color: red;
+    padding: 0.5rem 0;
+}
+ .required:after
+ { content:" *";color:red; }
